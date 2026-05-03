@@ -1,0 +1,18 @@
+# KiCad
+*.lck
+*~
+*-bak
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*-rescue.lib
+*-rescue.dcm
+_saved_*
+*-cache
+*-backups/
+*#
+
+.DS_Store
+Thumbs.db
+Desktop.ini
