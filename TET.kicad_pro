@@ -719,6 +719,10 @@
     [
       "9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b",
       "Root"
+    ],
+    [
+      "ea93ecaa-32da-4e78-85e1-01d04abbfc93",
+      "Power_Supply"
     ]
   ],
   "text_variables": {}
