@@ -911,7 +911,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U10"
+			(property "Reference" "U3"
 				(at 0 0.762 0)
 				(effects
 					(font
@@ -937,7 +937,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/92458.html"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2053549.pdf"
 				(at -2.286 0.254 0)
 				(effects
 					(font
@@ -997,7 +997,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "STM32L431RBT6TR_1_1"
+				(pin input line
 					(at -24.13 36.83 0)
 					(length 2.54)
 					(name "PH3/BOOT0"
@@ -1015,7 +1017,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -24.13 30.48 0)
 					(length 2.54)
 					(name "PH0/OSCIN"
@@ -1033,7 +1035,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -24.13 27.94 0)
 					(length 2.54)
 					(name "PH1/OSCOUT"
@@ -1051,7 +1053,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 21.59 0)
 					(length 2.54)
 					(name "NRST"
@@ -1069,7 +1071,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 13.97 0)
 					(length 2.54)
 					(name "PD2"
@@ -1087,7 +1089,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -5.08 0)
 					(length 2.54)
 					(name "PC0"
@@ -1105,7 +1107,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -7.62 0)
 					(length 2.54)
 					(name "PC1"
@@ -1123,7 +1125,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -10.16 0)
 					(length 2.54)
 					(name "PC2"
@@ -1141,7 +1143,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -12.7 0)
 					(length 2.54)
 					(name "PC3"
@@ -1159,7 +1161,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -15.24 0)
 					(length 2.54)
 					(name "PC4"
@@ -1177,7 +1179,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -17.78 0)
 					(length 2.54)
 					(name "PC5"
@@ -1195,7 +1197,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -20.32 0)
 					(length 2.54)
 					(name "PC6"
@@ -1213,7 +1215,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -22.86 0)
 					(length 2.54)
 					(name "PC7"
@@ -1231,7 +1233,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -25.4 0)
 					(length 2.54)
 					(name "PC8"
@@ -1249,7 +1251,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -27.94 0)
 					(length 2.54)
 					(name "PC9"
@@ -1267,7 +1269,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -30.48 0)
 					(length 2.54)
 					(name "PC10"
@@ -1285,7 +1287,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -33.02 0)
 					(length 2.54)
 					(name "PC11"
@@ -1303,7 +1305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -35.56 0)
 					(length 2.54)
 					(name "PC12"
@@ -1321,7 +1323,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -38.1 0)
 					(length 2.54)
 					(name "PC13"
@@ -1339,7 +1341,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -40.64 0)
 					(length 2.54)
 					(name "PC14/OSC32_IN"
@@ -1357,7 +1359,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -24.13 -43.18 0)
 					(length 2.54)
 					(name "PC15/OSC32_OUT"
@@ -1375,7 +1377,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -5.08 46.99 270)
 					(length 2.54)
 					(name "VDD"
@@ -1393,7 +1395,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -5.08 -49.53 90)
 					(length 2.54)
 					(name "VSSA/VREF-"
@@ -1411,7 +1413,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 46.99 270)
 					(length 2.54)
 					(name "VDD"
@@ -1429,7 +1431,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -2.54 -49.53 90)
 					(length 2.54)
 					(name "VSS"
@@ -1447,7 +1449,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 46.99 270)
 					(length 2.54)
 					(name "VDD"
@@ -1465,7 +1467,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -49.53 90)
 					(length 2.54)
 					(name "VSS"
@@ -1483,7 +1485,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 2.54 46.99 270)
 					(length 2.54)
 					(name "VDD"
@@ -1501,7 +1503,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 2.54 -49.53 90)
 					(length 2.54)
 					(name "VSS"
@@ -1519,7 +1521,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 5.08 46.99 270)
 					(length 2.54)
 					(name "VBAT"
@@ -1537,7 +1539,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 5.08 -49.53 90)
 					(length 2.54)
 					(name "VSS"
@@ -1555,7 +1557,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 13.97 46.99 270)
 					(length 2.54)
 					(name "VDDA/VREF+"
@@ -1573,7 +1575,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 40.64 180)
 					(length 2.54)
 					(name "PA0"
@@ -1591,7 +1593,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 38.1 180)
 					(length 2.54)
 					(name "PA1"
@@ -1609,7 +1611,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 35.56 180)
 					(length 2.54)
 					(name "PA2"
@@ -1627,7 +1629,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 33.02 180)
 					(length 2.54)
 					(name "PA3"
@@ -1645,7 +1647,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 30.48 180)
 					(length 2.54)
 					(name "PA4"
@@ -1663,7 +1665,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 27.94 180)
 					(length 2.54)
 					(name "PA5"
@@ -1681,7 +1683,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 25.4 180)
 					(length 2.54)
 					(name "PA6"
@@ -1699,7 +1701,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 22.86 180)
 					(length 2.54)
 					(name "PA7"
@@ -1717,7 +1719,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 20.32 180)
 					(length 2.54)
 					(name "PA8"
@@ -1735,7 +1737,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 17.78 180)
 					(length 2.54)
 					(name "PA9"
@@ -1753,7 +1755,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 15.24 180)
 					(length 2.54)
 					(name "PA10"
@@ -1771,7 +1773,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 12.7 180)
 					(length 2.54)
 					(name "PA11"
@@ -1789,7 +1791,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 10.16 180)
 					(length 2.54)
 					(name "PA12"
@@ -1807,7 +1809,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 7.62 180)
 					(length 2.54)
 					(name "PA13"
@@ -1825,7 +1827,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 5.08 180)
 					(length 2.54)
 					(name "PA14"
@@ -1843,7 +1845,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 2.54 180)
 					(length 2.54)
 					(name "PA15"
@@ -1861,7 +1863,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -2.54 180)
 					(length 2.54)
 					(name "PB0"
@@ -1879,7 +1881,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -5.08 180)
 					(length 2.54)
 					(name "PB1"
@@ -1897,7 +1899,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -7.62 180)
 					(length 2.54)
 					(name "PB2"
@@ -1915,7 +1917,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -10.16 180)
 					(length 2.54)
 					(name "PB3"
@@ -1933,7 +1935,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -12.7 180)
 					(length 2.54)
 					(name "PB4"
@@ -1951,7 +1953,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -15.24 180)
 					(length 2.54)
 					(name "PB5"
@@ -1969,7 +1971,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -17.78 180)
 					(length 2.54)
 					(name "PB6"
@@ -1987,7 +1989,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -20.32 180)
 					(length 2.54)
 					(name "PB7"
@@ -2005,7 +2007,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -25.4 180)
 					(length 2.54)
 					(name "PB8"
@@ -2023,7 +2025,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -27.94 180)
 					(length 2.54)
 					(name "PB9"
@@ -2041,7 +2043,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -30.48 180)
 					(length 2.54)
 					(name "PB10"
@@ -2059,7 +2061,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -33.02 180)
 					(length 2.54)
 					(name "PB11"
@@ -2077,7 +2079,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -35.56 180)
 					(length 2.54)
 					(name "PB12"
@@ -2095,7 +2097,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -38.1 180)
 					(length 2.54)
 					(name "PB13"
@@ -2113,7 +2115,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -40.64 180)
 					(length 2.54)
 					(name "PB14"
@@ -2131,7 +2133,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 24.13 -43.18 180)
 					(length 2.54)
 					(name "PB15"
@@ -2156,7 +2158,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U12"
+			(property "Reference" "U1"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -2182,7 +2184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20201224/C1509088_801C146548210414D75CA4C6AF5FD003.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN330G"
 				(at -2.286 0.127 0)
 				(effects
 					(font
@@ -2242,7 +2244,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "TCAN330GDCNR_1_1"
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VCC"
@@ -2260,7 +2264,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "TXD"
@@ -2278,7 +2282,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "RXD"
@@ -2296,7 +2300,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -2314,7 +2318,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "CANH"
@@ -2332,7 +2336,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "CANL"
@@ -2350,7 +2354,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "S"
@@ -2368,7 +2372,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "SHDN"
@@ -2393,7 +2397,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U9"
+			(property "Reference" "U4"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -2419,7 +2423,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/188416.html"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
 				(at -2.286 0.127 0)
 				(effects
 					(font
@@ -2490,7 +2494,9 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "TMP112AIDRLR_1_1"
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "SCL"
@@ -2508,7 +2514,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "SDA"
@@ -2526,7 +2532,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "ALERT"
@@ -2544,7 +2550,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "V+"
@@ -2562,7 +2568,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "ADD0"
@@ -2580,7 +2586,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -4805,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 26.67) (xy 177.8 27.94)
+			(xy 177.8 25.4) (xy 177.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 62.23 114.3)
+			(xy 62.23 115.57) (xy 62.23 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5835,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 62.23 101.6)
+			(xy 62.23 106.68) (xy 62.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8235,7 +8241,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 177.8 26.67 0)
+		(at 177.8 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +8250,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f36bac1-16f0-4606-a875-cd2ab0317e4d")
 		(property "Reference" "#PWR09"
-			(at 177.8 30.48 0)
+			(at 177.8 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8259,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 177.8 22.225 0)
+			(at 177.8 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 26.67 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 26.67 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 177.8 26.67 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +8875,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 62.23 111.76 0)
+		(at 62.23 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8878,7 +8884,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bee6093-1942-47e1-bd58-f5c0731ace52")
 		(property "Reference" "R1"
-			(at 64.77 110.4899 0)
+			(at 64.77 107.9499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8887,7 +8893,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 64.77 113.0299 0)
+			(at 64.77 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8902,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.23 111.76 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +8911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 111.76 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8920,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 62.23 111.76 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
