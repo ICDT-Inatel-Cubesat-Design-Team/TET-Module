@@ -12,6 +12,7 @@ _saved_*
 *-cache
 *-backups/
 *#
+*/jlcpcb/
 
 .DS_Store
 Thumbs.db

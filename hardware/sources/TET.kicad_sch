@@ -7596,7 +7596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20201224/C1509088_801C146548210414D75CA4C6AF5FD003.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TCAN330G"
 			(at 53.594 182.753 0)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/188416.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
 			(at 185.674 143.383 0)
 			(effects
 				(font
@@ -10132,7 +10132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14709.pdf"
 			(at 166.37 27.94 0)
 			(effects
 				(font
@@ -10143,6 +10143,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 166.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 166.37 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/92458.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2053549.pdf"
 			(at 122.174 84.836 0)
 			(effects
 				(font

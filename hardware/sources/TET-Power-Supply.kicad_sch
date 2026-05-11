@@ -5775,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/202966.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/INA226-Q1"
 			(at 179.324 76.073 0)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2480.pdf"
 			(at 168.91 45.72 90)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2297.pdf"
 			(at 215.9 144.78 0)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2296.pdf"
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84256.pdf"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -7219,7 +7219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2480.pdf"
 			(at 168.91 54.61 90)
 			(effects
 				(font
@@ -7568,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/188416.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
 			(at 246.634 97.663 0)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180629/C238130_5A26801579F58754781F264880A43AC8.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2906768.pdf"
 			(at 143.637 141.224 0)
 			(effects
 				(font
@@ -8363,7 +8363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2480.pdf"
 			(at 168.91 35.56 90)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/236104.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TLV755P"
 			(at 247.904 37.973 0)
 			(effects
 				(font
@@ -8664,7 +8664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180629/C238130_5A26801579F58754781F264880A43AC8.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2906768.pdf"
 			(at 157.353 139.446 0)
 			(effects
 				(font

@@ -5200,7 +5200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/188416.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
 			(at 240.284 62.103 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/202966.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/INA226-Q1"
 			(at 169.164 57.023 0)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/188416.html"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
 			(at 143.764 139.573 0)
 			(effects
 				(font
@@ -6360,7 +6360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230825/7E9278DCB4C5241204008499564E9C2C.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7498154.pdf"
 			(at 87.884 175.133 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230825/7E9278DCB4C5241204008499564E9C2C.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7498154.pdf"
 			(at 43.434 175.133 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/63461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C97521.pdf"
 			(at 51.054 106.553 0)
 			(effects
 				(font
@@ -7719,7 +7719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/63461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C97521.pdf"
 			(at 136.144 106.553 0)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/63461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C97521.pdf"
 			(at 51.054 134.493 0)
 			(effects
 				(font
