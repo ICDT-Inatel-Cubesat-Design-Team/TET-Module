@@ -3283,7 +3283,7 @@
 		)
 		(uuid "1e2a1f81-408c-4f6d-9a10-e0cc03aae882")
 	)
-	(text_box ""
+	(text_box "\n\n\n\n\n\n- Dual-band LoRa transceiver supporting 915 MHz and 2.4 GHz operation.\n\n- Based on the Semtech LR1121 RF transceiver architecture.\n\n- Supports LoRa, GFSK, FLRC, and LR-FHSS modulation schemes.\n\n- Dedicated SMA RF outputs for 915 MHz and 2.4 GHz external antennas.\n\n- SPI interface used for RF configuration and packet communication.\n\n- GPIO control lines used for reset, busy status, and interrupt signaling.\n\n- Designed for long-range telemetry and low-power wireless communication.\n\n- RF subsystem power consumption monitored through an INA226 high-side current monitor.\n\n- Local RF temperature monitoring implemented using TMP112 digital temperature sensors.\n\n- External QSPI flash memories used for telemetry buffering and RF data storage.\n\n- RF section powered through an independent monitored 3.3 V rail."
 		(exclude_from_sim no)
 		(at 184.15 85.09 0)
 		(size 99.06 71.12)

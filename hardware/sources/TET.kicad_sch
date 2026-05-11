@@ -3323,6 +3323,18 @@
 		)
 		(uuid ebbe8ec4-addd-4e82-8585-2c2f15029b55)
 	)
+	(text "SWD"
+		(exclude_from_sim no)
+		(at 256.54 78.74 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "08da14b9-9978-4295-b1d3-855b205ea9a5")
+	)
 	(text "Revised"
 		(exclude_from_sim no)
 		(at 247.65 160.02 0)
@@ -3333,6 +3345,18 @@
 			)
 		)
 		(uuid "1fdf7013-7aea-4ac6-8a39-0a6fd62582d1")
+	)
+	(text "TEMPERATURE"
+		(exclude_from_sim no)
+		(at 256.54 127 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "3a13c48f-e3c7-4f6f-8cc3-963c6f3c209f")
 	)
 	(text "Needs fix"
 		(exclude_from_sim no)
@@ -3369,6 +3393,18 @@
 		)
 		(uuid "64f61c68-008d-4635-8bd3-9220014e7d74")
 	)
+	(text "CLOCK"
+		(exclude_from_sim no)
+		(at 256.54 102.87 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "9550d065-1e3c-4263-899b-dc64d7176e3d")
+	)
 	(text "MECHANICAL HOLES"
 		(exclude_from_sim no)
 		(at 33.02 144.78 0)
@@ -3391,6 +3427,18 @@
 			)
 		)
 		(uuid "e15f0754-4946-4610-b33f-8625e08934af")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 256.54 54.61 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "fc58615b-73cb-4de6-b9f7-8e0ae84cc040")
 	)
 	(text "Telemetry, Encoding & Transmission Module"
 		(exclude_from_sim no)
@@ -3449,7 +3497,7 @@
 		)
 		(uuid "17c8790b-e82d-40c3-8a2d-e1374c184ad4")
 	)
-	(text_box ""
+	(text_box "\n\n\n\n\n\n- Main processing unit based on the STM32L431 microcontroller.\n\n- Responsible for telemetry acquisition, packet encoding, peripheral control, communication interfaces, and RF subsystem management.\n\n- Interfaces with external memories, sensors, CAN bus, UART channels, and LoRa transceiver through SPI, I2C, GPIO, and QSPI peripherals.\n\n\n\n\n\n\n- CAN bus physical interface implemented using the TCAN330 transceiver.\n\n- Converts MCU logic-level CAN signals into differential CANH/CANL bus signals compatible with external spacecraft subsystems.\n\n\n\n\n\n\n- Standard ARM SWD programming and debugging interface.\n\n- Provides firmware upload, debugging access, and real-time MCU inspection through SWDIO, SWCLK, NRST, and SWO signals.\n\n\n\n\n\n\n- External 8 MHz oscillator used as the primary high-speed clock reference for the STM32 MCU.\n\n- Provides accurate timing for communication peripherals and RF-related operations.\n\n\n\n\n\n\n\n- Local board temperature monitoring using the TMP112 digital temperature sensor connected via I2C bus.\n\n- Generates alert interrupts when programmable temperature thresholds are exceeded.\n\n"
 		(exclude_from_sim no)
 		(at 231.14 13.97 0)
 		(size 52.07 142.24)
