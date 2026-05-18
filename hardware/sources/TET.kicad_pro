@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 1.2,
         "min_text_thickness": 0.2,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.7,
         "solder_mask_to_copper_clearance": 0.0,
@@ -540,12 +540,30 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.508,
+        "name": "RF_2.4",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 15, 190)",
+        "track_width": 0.1565,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.508,
+        "name": "RF_915",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(178, 47, 255)",
+        "track_width": 0.1565,
+        "tuning_profile": ""
       },
       {
         "clearance": 0.2,
@@ -555,7 +573,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -600,6 +618,14 @@
       {
         "netclass": "Power",
         "pattern": "/PWR_6"
+      },
+      {
+        "netclass": "RF_915",
+        "pattern": "/RF_Transceiver/ANT_915"
+      },
+      {
+        "netclass": "RF_2.4",
+        "pattern": "/RF_Transceiver/ANT_2.4"
       }
     ]
   },
