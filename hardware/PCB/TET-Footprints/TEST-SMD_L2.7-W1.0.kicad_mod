@@ -1,0 +1,138 @@
+(footprint "TEST-SMD_L2.7-W1.0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TEST-SMD_L2.7-W1.0 footprint")
+	(tags "TEST-SMD_L2.7-W1.0 footprint C2906768")
+	(property "Reference" "U6"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "ca8c29dd-4420-42de-9dd1-91ef5d064269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5015"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "cf86d886-3778-4133-a091-e6fca6fb8501")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2906768.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "204f5a3e-786d-444c-b34a-19b5167ed0e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1852305-7d09-42c4-924a-3d9c612276dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C2906768"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f8fb38c-b258-4ed3-a216-916453d55b41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_Supply/")
+	(sheetfile "TET-Power-Supply.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.968504 -1.143002)
+		(end -1.968504 1.143002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0eac70e9-f4ed-42b3-ab04-ad0db41845c5")
+	)
+	(fp_line
+		(start -1.968504 1.143002)
+		(end 1.968504 1.143002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d48e4cd1-914b-43f8-8c5e-ecaa02495712")
+	)
+	(fp_line
+		(start 1.968504 -1.143002)
+		(end -1.968504 -1.143002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fbd9ca5-0d42-4dfc-9c72-dffb1c20df68")
+	)
+	(fp_line
+		(start 1.968504 1.143002)
+		(end 1.968504 -1.143002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e52ffa1-08ef-42fa-9dc2-5ef1dce5a9f8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "76a6ab60-d55e-419d-b869-49ac95fbc408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3.429997 1.78001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aaf33fa2-4e66-4f4c-86cf-c9189177b004")
+	)
+	(embedded_fonts no)
+	(model "packages3d/TEST-SMD_L2.7-W1.0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

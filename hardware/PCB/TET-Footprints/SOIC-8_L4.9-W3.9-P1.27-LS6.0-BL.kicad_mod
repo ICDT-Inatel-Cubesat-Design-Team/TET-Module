@@ -1,0 +1,165 @@
+(footprint "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint")
+	(tags "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL footprint C22396693")
+	(property "Reference" "U5"
+		(at 0 -4.569977 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "79bdc8b9-2b84-49bb-8e00-587570892db7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TCAN3414DR"
+		(at 0 4.569977 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d878f76-262b-40c0-9bb9-ef0a19fdcebb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://so.szlcsc.com/global.html?c=&k=C9843"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70384011-922b-4943-9685-0f3f2d94b174")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77683e5d-c3b0-4ccc-a3e2-67aac68c0ffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C22396693"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa035a6f-239c-4f6c-8a1c-e56b090fb093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "TET.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.526213 -1.521412)
+		(end 2.526213 1.521412)
+		(radius 0.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "112a5804-f389-4188-9691-22dff689a59b")
+	)
+	(fp_circle
+		(center -2.651511 2.772416)
+		(end -2.501397 2.772416)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "31986e92-1ad1-4b38-a29c-7e40d3508c38")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5be16edc-3250-48ea-bbdc-0753f148c334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.905004 2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "693450fa-40fd-40fd-9e2d-5451dbb22e9c")
+	)
+	(pad "2" smd oval
+		(at -0.635001 2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c71d26ce-240a-4db8-9e7c-aad1c1f5eb65")
+	)
+	(pad "3" smd oval
+		(at 0.635001 2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d332d955-72b5-4ba7-a961-93d3ae8d49ef")
+	)
+	(pad "4" smd oval
+		(at 1.905004 2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f51626e-5a75-41e9-b150-fbeb6ad7468f")
+	)
+	(pad "5" smd oval
+		(at 1.905004 -2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3aed6cbc-74f1-4608-94b9-abf3d406701e")
+	)
+	(pad "6" smd oval
+		(at 0.635001 -2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef26164c-1860-4028-899d-9ef6c6b0aedc")
+	)
+	(pad "7" smd oval
+		(at -0.635001 -2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79384deb-c337-4065-9859-d8134b53301c")
+	)
+	(pad "8" smd oval
+		(at -1.905004 -2.569977)
+		(size 0.588011 2.045009)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99f02808-7dda-4dee-ab7f-99dcf6cafaac")
+	)
+	(embedded_fonts no)
+	(model "packages3d/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

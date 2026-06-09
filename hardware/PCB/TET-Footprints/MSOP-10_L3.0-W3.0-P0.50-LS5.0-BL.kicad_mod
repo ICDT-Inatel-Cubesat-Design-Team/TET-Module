@@ -1,0 +1,189 @@
+(footprint "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL footprint")
+	(tags "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL footprint C49851")
+	(property "Reference" "U21"
+		(at 0 -4.109982 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "19e9dbe9-10ae-4ad7-aea7-ccf23dde4cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INA226AIDGSR"
+		(at 0 4.109982 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "891b15da-d105-48e8-9130-08ce010eb9d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/221388.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cf1ffa1-99e1-4232-b95d-b04c9627cb72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6016ddff-9551-49ae-8d93-61d1c348135d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C49851"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b4f822-0515-433d-81ee-f82a90cf851a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RF_Transceiver/")
+	(sheetfile "TET-RF-Transceiver.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5762 -1.0714)
+		(end 1.5762 1.0714)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4a354c04-5963-4867-83ab-e25f2b50039c")
+	)
+	(fp_circle
+		(center -1.592329 2.109982)
+		(end -1.442215 2.109982)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cdaffed7-29c6-46c0-a417-6995a2ab3bd0")
+	)
+	(fp_circle
+		(center -1.016002 2.794006)
+		(end -0.916002 2.794006)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9486f6b4-4693-468f-a6f6-41a2a835e0e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5b883e46-c351-4d91-bc3f-a627d8c8fdbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de1ace53-c859-409b-9bfa-423b34ccf1b6")
+	)
+	(pad "2" smd oval
+		(at -0.499873 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "961eb99e-b262-49a3-87dd-c2afbf972a5a")
+	)
+	(pad "3" smd oval
+		(at 0 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01c899c4-a36e-4dde-877c-998e5f615983")
+	)
+	(pad "4" smd oval
+		(at 0.500127 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77dfdcbe-62a2-40b4-82d0-e1fe81937d77")
+	)
+	(pad "5" smd oval
+		(at 1 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "074a2acf-6615-49f8-926f-77a197dffbd1")
+	)
+	(pad "6" smd oval
+		(at 1 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e4ec92d-6b66-47c6-9c18-f27d4cfc97c4")
+	)
+	(pad "7" smd oval
+		(at 0.500127 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "19411c3b-9f75-40e9-8f93-d109f32443e5")
+	)
+	(pad "8" smd oval
+		(at 0 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc39ae3f-a289-4688-8d65-7c55f0eb05ec")
+	)
+	(pad "9" smd oval
+		(at -0.499873 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dbf60e41-7fb2-4fb6-81cf-5266b4eda8c0")
+	)
+	(pad "10" smd oval
+		(at -1 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "025854e5-c951-4529-ad97-8c24175c2d93")
+	)
+	(embedded_fonts no)
+	(model "packages3d/MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,151 @@
+(footprint "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint")
+	(tags "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR footprint C404027")
+	(property "Reference" "U10"
+		(at 0 -3.549962 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d24ab376-2573-4eb1-8474-cfdfa119f1d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TLV75533PDBVR"
+		(at 0 3.550064 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf31f430-1aee-4c28-a353-43c82fcef8f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/TLV755P"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3cccb3f-fb0e-4a63-81aa-72cc031396e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0973dfa9-3719-49eb-bcfc-5a0765656f5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C404027"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a1194d9-3b13-4b77-988e-3b567b2d5b5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_Supply/")
+	(sheetfile "TET-Power-Supply.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 1.399924 1.450089)
+		(end 1.429896 1.450089)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "327eecff-ec02-4210-9e62-6bccf6ea3207")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7 1.404115) (xy 0.899975 1.404115) (xy 0.899975 1.550064) (xy -0.900051 1.550064) (xy -0.900051 1.404115)
+			(xy -0.7 1.404115) (xy -0.7 0.5) (xy -0.704166 0.495834) (xy -0.900051 0.495834) (xy -0.900051 -0.495809)
+			(xy -0.7 -0.495809) (xy -0.7 -1.404089) (xy -0.900051 -1.404089) (xy -0.900051 -1.549962) (xy 0.899975 -1.549962)
+			(xy 0.899975 -1.404115) (xy 0.7 -1.404115) (xy 0.7 -0.57) (xy 0.9 -0.57) (xy 0.9 -0.37) (xy 0.7 -0.37)
+			(xy 0.7 0.36) (xy 0.71 0.37) (xy 0.91 0.37) (xy 0.91 0.58) (xy 0.71 0.58) (xy 0.7 0.59)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cf6025f5-7f52-4513-b47e-c4f488574d1c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.000051 0)
+		(layer "F.Fab")
+		(uuid "3c2f4e71-efb4-4e2a-aa94-dc6f44837591")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.300102 0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "799dca64-32b7-4910-940c-d9ca9819aa6a")
+	)
+	(pad "2" smd rect
+		(at 1.300102 0)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e4f22cc-6057-4bf9-95f1-0aceebee458e")
+	)
+	(pad "3" smd rect
+		(at 1.300102 -0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca3589d4-33b7-4f86-bf8f-eb45c6c8b267")
+	)
+	(pad "4" smd rect
+		(at -1.300102 -0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97257665-8b66-4abe-9612-e5910a3bead7")
+	)
+	(pad "5" smd rect
+		(at -1.300102 0.949962)
+		(size 1.1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b74d91b3-51ad-4dd3-8797-d108ab0747f0")
+	)
+	(embedded_fonts no)
+	(model "packages3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
