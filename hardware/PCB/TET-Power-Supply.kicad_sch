@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "TET Module")
-		(date "2026-05-01")
-		(rev "1.0")
+		(date "2026-06-09")
+		(rev "v1r1")
 		(company "ICDT")
-		(comment 1 "PCB-01")
+		(comment 1 "TET-v1r1")
 		(comment 2 "Rodrigo Andrade")
-		(comment 3 "01/05/2026")
+		(comment 3 "09/06/2026")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x26_Odd_Even"
@@ -2425,7 +2425,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U21"
+			(property "Reference" "U23"
 				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2458,7 +2458,7 @@
 				)
 			)
 			(property "Datasheet" "https://item.szlcsc.com/221388.html"
-				(at -17.018 -11.684 0)
+				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3910,12 +3910,6 @@
 		(uuid "46498a1c-7911-42f0-825e-a765a295e727")
 	)
 	(junction
-		(at 227.33 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dc74b61-7901-48ae-be55-90a694c2fded")
-	)
-	(junction
 		(at 220.98 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4004,6 +3998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3de7382-99ca-4fd5-ab71-a558ea465eb6")
+	)
+	(junction
+		(at 226.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e769e9ad-f8f6-49a3-a253-efa012121c3a")
 	)
 	(junction
 		(at 200.66 78.74)
@@ -4587,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 35.56) (xy 227.33 35.56)
+			(xy 212.09 35.56) (xy 226.06 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4867,16 +4867,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 33.02) (xy 227.33 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f49fa9-a224-41ca-9135-53b4bca26e45")
-	)
-	(wire
-		(pts
 			(xy 190.5 33.02) (xy 190.5 35.56)
 		)
 		(stroke
@@ -5047,13 +5037,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 41.91) (xy 227.33 44.45)
+			(xy 226.06 35.56) (xy 236.22 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ece25c9-e1fe-4d2b-9634-18bcb281ba48")
+		(uuid "a539c339-e39c-4ea8-af87-de03d9ab6df4")
 	)
 	(wire
 		(pts
@@ -5134,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "ba1b8188-06a2-4f22-aed6-6eb6da67cfeb")
-	)
-	(wire
-		(pts
-			(xy 227.33 35.56) (xy 236.22 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d63081-7d7c-4fbd-aaaf-0cc1ed6dfd66")
 	)
 	(wire
 		(pts
@@ -5237,6 +5217,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 41.91) (xy 226.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2583077-934a-4d1f-adeb-d37564e003f2")
+	)
+	(wire
+		(pts
 			(xy 212.09 73.66) (xy 200.66 73.66)
 		)
 		(stroke
@@ -5287,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 35.56) (xy 227.33 36.83)
+			(xy 226.06 35.56) (xy 226.06 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5374,6 +5364,16 @@
 			(type default)
 		)
 		(uuid "e9b53f02-e6cd-424a-b98d-827ece8182f0")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb32efaf-98d9-4080-ba8a-0a16da0b51b3")
 	)
 	(wire
 		(pts
@@ -5515,6 +5515,16 @@
 		)
 		(uuid "79967e73-242e-454f-9893-23b6c61bd03a")
 	)
+	(label "SYS_LOAD"
+		(at 214.63 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c69fb189-a665-41ef-9972-91f9951303a4")
+	)
 	(label "PWR_2"
 		(at 149.86 45.72 0)
 		(effects
@@ -5646,84 +5656,6 @@
 		(uuid "cac09147-ba5c-44f3-9fbc-4d8dc344705a")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 227.33 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01df5447-1e63-43e9-9c0a-73c8c9d36061")
-		(property "Reference" "#PWR054"
-			(at 227.33 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 227.33 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a565d48-8690-4613-968f-0259d472f6f7")
-		)
-		(instances
-			(project "TET"
-				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 102.87 0)
 		(unit 1)
@@ -5735,7 +5667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f8d117d-7fe6-4d80-a0fb-8174d16a1cc2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 269.24 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5795,7 +5727,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d86f15-a3d9-4a27-bc9d-0744230de839")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 143.51 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5873,7 +5805,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5891,7 +5823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba45976-6784-441d-a905-5d7a09f84a86")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at 205.74 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C695817.pdf"
 			(at 205.74 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5944,6 +5876,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C695817"
+			(at 205.74 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2057b5f4-c0e6-43d6-9c60-f963c8c35024")
 		)
@@ -5953,7 +5896,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R22")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5971,7 +5914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca8d533-4839-46ac-bc30-9ff279c66479")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 269.24 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6031,7 +5974,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6049,7 +5992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d07506d-9ebf-420a-b727-f17bb009249c")
-		(property "Reference" "U23"
+		(property "Reference" "U3"
 			(at 181.61 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/221388.html"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina226.pdf"
 			(at 179.324 76.073 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +6091,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "U23")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e7d4e90-cded-4dc6-958e-4693d4924247")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 21.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6226,7 +6169,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6413,7 +6356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc944be-11bf-4169-999e-107e0940680a")
-		(property "Reference" "R25"
+		(property "Reference" "R10"
 			(at 246.38 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,7 +6418,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R25")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6493,7 +6436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226e97da-fa33-41eb-a05a-edf3989063af")
-		(property "Reference" "R23"
+		(property "Reference" "R8"
 			(at 223.52 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6500,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R23")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6575,7 +6518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2946ae68-536b-4a54-b1e1-b1b5371b230c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR010"
 			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6635,7 +6578,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR023")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6755,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "428c66da-4239-497b-93e5-8f46acbfdbfa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR023"
 			(at 273.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6815,7 +6758,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR032")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ec7508-9767-4117-be32-769fd82a5db8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR016"
 			(at 186.69 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6893,7 +6836,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR024")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6911,8 +6854,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "595632c8-bdf5-4026-a01b-4bc21c2070f4")
-		(property "Reference" "C15"
-			(at 203.835 83.8262 0)
+		(property "Reference" "C2"
+			(at 203.2 83.8262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6922,8 +6865,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 203.835 86.3662 0)
+		(property "Value" "100nF"
+			(at 203.2 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6975,7 +6918,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "C15")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7197,7 +7140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb9cabe-1582-4b9a-b31c-48573160d0f1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR024"
 			(at 273.05 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7257,7 +7200,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7356,7 +7299,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 227.33 39.37 0)
+		(at 226.06 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7366,8 +7309,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743bee39-90bc-4c5d-a58a-5c42907d82e8")
-		(property "Reference" "C16"
-			(at 230.505 38.1062 0)
+		(property "Reference" "C3"
+			(at 229.235 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7378,7 +7321,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 230.505 40.6462 0)
+			(at 229.235 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7388,8 +7331,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.33 39.37 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 39.37 0)
+			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +7354,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 227.33 39.37 0)
+			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7373,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "C16")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d03678-f9bb-4c41-b922-2927b234a581")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR020"
 			(at 237.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7509,7 +7452,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR028")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7527,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a93d75f-759e-476e-9f1a-f8055befb7cc")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7587,7 +7530,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7605,7 +7548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd35234-e822-45ce-99cc-85370f3df92c")
-		(property "Reference" "R21"
+		(property "Reference" "R5"
 			(at 199.39 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7667,7 +7610,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R21")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7685,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f06ece1-d290-405f-bc9c-1803d62151a9")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 248.92 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7772,7 +7715,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7790,8 +7733,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d886a7-bac6-4164-a68a-bf3dcf15ef65")
-		(property "Reference" "C18"
-			(at 272.415 90.1762 0)
+		(property "Reference" "C5"
+			(at 271.78 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7801,8 +7744,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 272.415 92.7162 0)
+		(property "Value" "100nF"
+			(at 271.78 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7854,7 +7797,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "C18")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7872,7 +7815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c09256-4fa8-42ac-894b-93bd4bb1e402")
-		(property "Reference" "R24"
+		(property "Reference" "R9"
 			(at 238.76 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +7879,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R24")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7948,10 +7891,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "8a3a96a6-4ba0-47b7-83b9-8542ff671706")
 		(property "Reference" "H2"
 			(at 95.25 32.5882 0)
@@ -8183,7 +8126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a7bde0f-2f60-4b27-bb2e-c9bf8946d80f")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 147.32 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8200,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb6430a-04e6-4990-92bb-f36c3b611d3a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 190.5 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8335,7 +8278,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9102fb46-ec93-45a4-8b5b-767b65c865bf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 119.38 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8356,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8431,7 +8374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9685cb15-218e-4920-a4d1-4ecf2ee72ff2")
-		(property "Reference" "R20"
+		(property "Reference" "R2"
 			(at 198.12 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8493,7 +8436,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8511,7 +8454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97b58fd6-1e73-4d1e-a5c9-c910ab4e183a")
-		(property "Reference" "C17"
+		(property "Reference" "C4"
 			(at 267.97 39.3762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8533,7 +8476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.43 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8575,7 +8518,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8593,7 +8536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d41fb65-ed34-4f54-ba10-982ac24774d4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 59.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8653,7 +8596,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9d42c0-429f-4ec4-a7ac-a3de303efe4a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8822,7 +8765,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8840,7 +8783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b95e2d92-8a61-4bd0-a036-2d88fc31510d")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 250.19 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,7 +8867,86 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "U10")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf577b9-11b1-4015-839a-1e395bef3e56")
+		(property "Reference" "#FLG04"
+			(at 226.06 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 226.06 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b449638-6d39-4868-b2d0-bcb9adb31974")
+		)
+		(instances
+			(project "TET"
+				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8942,7 +8964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be67898f-28cd-44e7-9d48-43f0788dc8e3")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 161.29 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9038,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3319a6c-fca5-4d15-91b6-ed2973727d53")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 168.91 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9120,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9116,7 +9138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d13ba80b-ddf6-4b10-b68a-a34e6c571b31")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 278.13 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -9177,7 +9199,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#FLG04")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5aab5c7-f71a-4503-b2b4-031b7657f80b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR015"
 			(at 166.37 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9255,7 +9277,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9273,7 +9295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eafe29ce-d7a4-4e6c-bfd0-29156cf3f6f6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR026"
 			(at 275.59 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9333,7 +9355,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR033")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9351,7 +9373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f005983d-4d1b-4979-b6c4-925da09be0ea")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR09"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9411,7 +9433,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR019")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 44.45 0)
+		(at 226.06 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9429,8 +9451,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbaf1325-1ce0-42fb-aa5c-148dca2ace17")
-		(property "Reference" "#PWR027"
-			(at 227.33 50.8 0)
+		(property "Reference" "#PWR019"
+			(at 226.06 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9441,7 +9463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 49.53 0)
+			(at 226.06 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9451,7 +9473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 44.45 0)
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9462,7 +9484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 44.45 0)
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9473,7 +9495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 44.45 0)
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,7 +9511,7 @@
 		(instances
 			(project "TET"
 				(path "/9ad3bc3a-e567-4764-b6aa-630c8b7f3c7b/ea93ecaa-32da-4e78-85e1-01d04abbfc93"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9501,10 +9523,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "fd635000-accc-4bdd-aa74-16a502390343")
 		(property "Reference" "H1"
 			(at 40.64 32.5882 0)

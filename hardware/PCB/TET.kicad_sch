@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "TET Module")
-		(date "2026-05-01")
-		(rev "1.0")
+		(date "2026-06-09")
+		(rev "v1r1")
 		(company "ICDT")
-		(comment 1 "PCB-01")
+		(comment 1 "TET-v1r1")
 		(comment 2 "Rodrigo Andrade")
-		(comment 3 "01/05/2026")
+		(comment 3 "09/06/2026")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
@@ -6834,7 +6834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 86.36 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,7 +7087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7236,7 +7236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 30.48 187.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7620,10 +7620,10 @@
 		(at 19.05 146.05 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e725dc6-f014-4c8d-b16c-1aa235303ee3")
@@ -8620,9 +8620,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66eed297-f837-41da-b721-9c49d7208ae3")
@@ -8951,10 +8951,10 @@
 		(at 45.72 146.05 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b38d3a9-a08b-4b9e-a229-c6c5f329a21b")
@@ -9516,10 +9516,10 @@
 		(at 27.94 146.05 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf4f64c-335d-4052-873c-b7414ed347a4")
@@ -9756,10 +9756,10 @@
 		(at 36.83 146.05 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a4f1fb-c50e-4117-93c6-c09075533515")
@@ -10014,7 +10014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "60.4"
 			(at 86.36 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10324,7 +10324,7 @@
 		(fields_autoplaced yes)
 		(uuid "e78f61d0-e4b8-4ea1-98f1-3f7c3dc0026a")
 		(property "Reference" "C14"
-			(at 219.075 137.1662 0)
+			(at 218.44 137.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10334,8 +10334,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 219.075 139.7062 0)
+		(property "Value" "100nF"
+			(at 218.44 139.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10834,9 +10834,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f819deb9-f734-41b2-bd4f-04681fcc31a6")
 		(property "Reference" "JP1"
@@ -11102,7 +11102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)

@@ -57,8 +57,6 @@ This project involves the development of the **TET (Telemetry, Encoding & Transm
       <th>Status</th>
       <th>Latest Release</th>
       <th>Date</th>
-      <th></th>
-      <th></th>
       <th>Datasheet</th>
       <th>BOM</th>
       <th>Ordering Info</th>
@@ -67,20 +65,20 @@ This project involves the development of the **TET (Telemetry, Encoding & Transm
   <tbody>
     <tr>
       <td><img src="docs/pictures/PCB-Icon.webp" alt="render"/></td>
-      <td>TET Module v0r1</td>
+      <td>TET Module v1</td>
       <td>🧪 Testing</td>
-      <td><a href="#">v0r1</a></td>
+      <td><a href="https://github.com/ICDT-Inatel-Cubesat-Design-Team/TET-Module/releases/tag/v1r1">v1r1</a></td>
       <td>09-06-2026</td>
       <td></td>
-      <td></td>
-      <td><a href="#">PDF</a></td>
       <td>Yes</td>
-      <td><a href="#">GERBER</a> (JLCPCB)</td>
+      <td><a href="hardware/Fabrication/GERBER-TET.zip">GERBER</a> (JLCPCB)</td>
     </tr>
   </tbody>
 </table>
 
 ## References
+
+This project was inspired by the [TTC](https://github.com/spacelab-ufsc/ttc) and [TTC2](https://github.com/spacelab-ufsc/ttc2) modules from [SpaceLab](https://github.com/spacelab-ufsc/spacelab) UFSC, and the [Build a CubeSat](https://buildacubesat.space/) project. Thank you to both for making your work open-source, and a special thanks to the Build a CubeSat community for their support.
 
 **Missions Associated with this Project**
 
