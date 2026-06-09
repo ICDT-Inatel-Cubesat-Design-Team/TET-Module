@@ -1,0 +1,164 @@
+(footprint "SOT-563_L1.6-W1.2-P0.50-LS1.6-BR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-563_L1.6-W1.2-P0.50-LS1.6-BR footprint")
+	(tags "SOT-563_L1.6-W1.2-P0.50-LS1.6-BR footprint C28927")
+	(property "Reference" "U6"
+		(at 0 -2.787325 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3cf215b8-5b57-432d-be05-3e1a80a09b85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TMP112AIDRLR"
+		(at 0 2.787478 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea9e0830-12c4-4b15-860b-373cedb71d64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2bf01b4-a78e-4443-934a-2e2ba1cf48c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0426b478-1a3a-4929-8f51-222664c8c5be")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C28927"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d744b9bc-2c15-4004-8e3c-2aa0fe89b202")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_Supply/")
+	(sheetfile "TET-Power-Supply.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.41 -0.66)
+		(end 0.41 0.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9ca5a543-517d-44d9-856d-a18a20de476c")
+	)
+	(fp_circle
+		(center 0.749987 0.899975)
+		(end 0.779959 0.899975)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d85351f5-2c1a-4302-baf4-85df36a72c5c")
+	)
+	(fp_circle
+		(center 0.809627 0.503302)
+		(end 0.909703 0.503302)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "96dec646-5bc2-4294-8f1a-f874c9b46aa9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.000076 0)
+		(layer "F.Fab")
+		(uuid "de638aba-45cf-48bf-b004-85364657fe9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.749987 0.5 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9f09a6d5-dad6-4ffe-9f69-ff7afe81c0a5")
+	)
+	(pad "2" smd rect
+		(at 0.749987 0.000127 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "612faf81-b2ea-45cf-8e40-d633919afb21")
+	)
+	(pad "3" smd rect
+		(at 0.749987 -0.5 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b838d54-c8bf-4fe5-b88c-4078218e0bed")
+	)
+	(pad "4" smd rect
+		(at -0.749987 -0.5 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "9edbbdba-5eb9-4002-a42f-1853df386937")
+	)
+	(pad "5" smd rect
+		(at -0.749987 0.000127 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80cb5330-2577-4a61-b994-937ce43a2d09")
+	)
+	(pad "6" smd rect
+		(at -0.749987 0.5 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6910d6d0-3cd3-41a4-9578-702e1244df60")
+	)
+	(embedded_fonts no)
+	(model "packages3d/SOT-563_L1.6-W1.2-P0.50-LS1.6-BR.step"
+		(offset
+			(xyz -0.0000507999992371 0.02992119955 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

@@ -1,0 +1,189 @@
+(footprint "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL footprint")
+	(tags "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL footprint C49851")
+	(property "Reference" "U3"
+		(at 0 -4.109982 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0f174f42-01c4-41c3-a7d9-8e113d92a086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INA226AIDGSR"
+		(at 0 4.109982 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75f5b81e-cd06-43f6-9958-b46ae5f6b603")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina226.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69276c7b-4c5f-402a-8e70-8a90ddc04b08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b1cc7ee-880e-42bd-a242-3fe26c1a2d3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C49851"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c4d820a-5062-412f-8dcc-cc6374528618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power_Supply/")
+	(sheetfile "TET-Power-Supply.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5762 -1.0714)
+		(end 1.5762 1.0714)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d34b84b1-482b-491e-ad76-d79c3be3908a")
+	)
+	(fp_circle
+		(center -1.592329 2.109982)
+		(end -1.442215 2.109982)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "69ea9378-9bc0-4129-93d6-70f9c952a921")
+	)
+	(fp_circle
+		(center -1.016002 2.794006)
+		(end -0.916002 2.794006)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a41f5552-d6d3-4c95-a9b7-85470112ecb9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "5751f491-971f-457b-8b37-e898ed7bbe7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0655829-fb58-4a3c-ba59-97acf0cb69c7")
+	)
+	(pad "2" smd oval
+		(at -0.499873 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "a9765e48-9542-41a4-91b8-a8984377ac31")
+	)
+	(pad "3" smd oval
+		(at 0 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6aa85e1-808c-45da-a2cb-74b27a5dca8a")
+	)
+	(pad "4" smd oval
+		(at 0.500127 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "607765a9-8f85-471a-8952-64280403847e")
+	)
+	(pad "5" smd oval
+		(at 1 2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6db2a740-5ca8-4ad6-81ab-0310b69b8882")
+	)
+	(pad "6" smd oval
+		(at 1 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "175435d4-7ae9-4578-b4ab-b51ceb059f2c")
+	)
+	(pad "7" smd oval
+		(at 0.500127 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "8e966f05-811b-4277-8906-c9a3eba9c1e1")
+	)
+	(pad "8" smd oval
+		(at 0 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16cb8c6a-f128-4a83-83dd-f1d003272eab")
+	)
+	(pad "9" smd oval
+		(at -0.499873 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88ddc33f-a6e3-4066-92dc-451698631193")
+	)
+	(pad "10" smd oval
+		(at -1 -2.109982)
+		(size 0.28001 1.620015)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8bc25b0b-a427-4b0a-95c2-d2f4d5fd40bb")
+	)
+	(embedded_fonts no)
+	(model "packages3d/MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
