@@ -67,7 +67,7 @@ This project involves the development of the **TET (Telemetry, Encoding & Transm
       <td><img src="docs/pictures/PCB-Icon.webp" alt="render"/></td>
       <td>TET Module v1</td>
       <td>🧪 Testing</td>
-      <td><a href="https://github.com/ICDT-Inatel-Cubesat-Design-Team/TET-Module/releases/tag/v1r1">v1r1</a></td>
+      <td><a href="https://github.com/ICDT-Inatel-Cubesat-Design-Team/TET-Module/releases/tag/v1r2">v1r2</a></td>
       <td>09-06-2026</td>
       <td></td>
       <td>Yes</td>
